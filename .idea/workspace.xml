@@ -3,39 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="29131dbd-7a84-491c-a6cb-db624bb878c1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/_config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/_config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/css/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/css/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/css/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/css/typography.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/images/blockquote.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/javascript/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/BreadCrumbs.ss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/Footer.ss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/Header.ss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/Navigation.ss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/SideBar.ss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/templates/Includes/SidebarMenu.ss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/templates/Layout/Page.ss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/templates/Layout/Page_results.ss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/templates/Page.ss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo SIL OFL Font License 1.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/webfonts/Cambo-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/webfonts/generator_config.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/simple/webfonts/websymbols-regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/one-ring/templates/Page.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/one-ring/templates/Page.ss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +18,8 @@
       <file leaf-file-name="Page.ss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/one-ring/templates/Page.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="240" column="24" selection-start-line="240" selection-start-column="19" selection-end-line="240" selection-end-column="24" />
+            <state relative-caret-position="359">
+              <caret line="118" column="79" selection-start-line="118" selection-start-column="79" selection-end-line="118" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -99,11 +67,11 @@
       <path value="$PROJECT_DIR$/framework/thirdparty/jquery-fileupload/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1440" />
-    <option name="y" value="-51" />
-    <option name="width" value="1868" />
-    <option name="height" value="1047" />
+    <option name="y" value="-61" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -181,7 +149,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.stylesheets" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,36 +179,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526284584492</updated>
-      <workItem from="1526284585748" duration="3051000" />
+      <workItem from="1526284585748" duration="3354000" />
+      <workItem from="1526288413684" duration="117000" />
+      <workItem from="1526288541693" duration="73000" />
+      <workItem from="1526288625493" duration="1151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3051000" />
+    <option name="totallyTimeSpent" value="4695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-61" width="1920" height="1057" extended-state="6" />
+    <frame x="1440" y="-61" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24270834" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32969216" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.326713" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +221,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/themes/one-ring/templates/Page.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2774">
+          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/one-ring/templates/Page.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2774">
+          <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/one-ring/templates/Page.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2774">
+          <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker/apache_default_vhost">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -296,8 +289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/one-ring/templates/Page.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="240" column="24" selection-start-line="240" selection-start-column="19" selection-end-line="240" selection-end-column="24" />
+        <state relative-caret-position="359">
+          <caret line="118" column="79" selection-start-line="118" selection-start-column="79" selection-end-line="118" selection-end-column="79" />
         </state>
       </provider>
     </entry>
