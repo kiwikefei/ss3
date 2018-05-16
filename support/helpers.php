@@ -1,5 +1,5 @@
 <?php
-use Support\Dumper;
+use Support\Debug\Dumper;
 
 if (! function_exists('dd')) {
 
