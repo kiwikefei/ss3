@@ -7,6 +7,10 @@ class ArticlePage extends Page
         'Teaser'    => 'Text',
         'Author'    => 'Varchar'
     ];
+    private static $has_one = [
+        'Photo'         => 'Image',
+        'Brochure'      => 'File'
+    ];
     private static $can_be_root = false;
     public function getCMSFields()
     {
@@ -18,6 +22,12 @@ class ArticlePage extends Page
             ->setDescription('If multiple authors, separate with commas')
             ->setMaxLength(50)
             , 'Content');
+        $fields->addFieldToTab('Root.Attachments', $photo = UploadField::create('Photo'));
+        $fields->addFieldToTab('Root.Attachments', $brochure = UploadField::create('Brochure', 'Travel brochure, optional(PDF only)'));
+        $photo->getValidator()->setAllowedExtensions(['png','gif','jpg','jpeg']);
+        $photo->setFolderName('travel-photos');
+        $brochure->getValidator()->setAllowedExtensions(['pdf']);
+        $brochure->setFolderName('travel-brochures');
         return $fields;
     }
 }
